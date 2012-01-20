@@ -1,0 +1,88 @@
+
+/* for google web fonts */
+@import url(http://fonts.googleapis.com/css?family=Play);
+
+html,body{
+    width : 99%;
+    height : 100%;
+    background-color: white;
+    color : rgb(10,50,100);
+    font-family: monospace;
+}
+
+#title{
+    font-size : 300%;
+}
+
+#timer{
+    font-family: 'Play', sans-serif;
+    text-align : center;
+    font-size : 1800%;
+}
+
+#progress{
+    width : 100%;
+    height : 10px;
+    background-color : rgb(10,50,100);
+}
+
+#wrapper{
+    width : 488px;
+    margin : 0 auto;
+}
+
+.button{
+    font-family: 'Play', sans-serif;
+    width : 200px;
+    height : 50px;
+    float : left;
+    margin : 20px;
+    text-align : center;
+    line-height : 50px;
+    color : white;
+    background-color : rgb(10,50,100);;
+    font-size : 150%;
+}
+
+.button:hover,#icon:hover,#sound:hover{
+    background-color : orange;
+    color : black;
+}
+
+#footer{
+    clear:both;
+    width:100%;
+}
+
+#icon,#sound{
+    float : right;
+    color : white;
+    background-color : rgb(10,50,100);
+    font-size : 150%;
+}
+
+#shadow{
+    z-sindex : 1;
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%%;
+    background-color : rgba(0,0,0,0.7);
+    display : none;
+}
+
+#window{
+    z-sindex : 2;
+    position : absolute;
+    border : 2px solid rgb(10,50,100);
+    width : 400px;
+    height : 400px;
+    margin-left : -200px;
+    margin-top : -200px;
+    top: 50%;
+    left : 50%;
+    background-color : white;
+    display : none;
+    padding : 10px;
+}
